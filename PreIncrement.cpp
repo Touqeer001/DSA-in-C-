@@ -17,17 +17,16 @@
 //     return 0;
 // }
 
-
 #include <iostream>
 using namespace std;
 int main()
 {
 
-   int sum=0;
-   for(int i=0;i<=5;i++){
-    sum +=i; //sum += i;: Add the current value of i to the running sum (sum).
-    cout<<sum;
-   }
+    int sum = 0;
+    for (int i = 0; i <= 5; i++)
+    {
+        sum += i; // sum += i;: Add the current value of i to the running sum (sum).
+        cout << sum;
+    }
     return 0;
 }
-
