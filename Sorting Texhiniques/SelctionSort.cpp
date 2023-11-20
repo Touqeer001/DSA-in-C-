@@ -12,7 +12,8 @@
 // ----------------------------------------------Selstion Sort-----------------------------
 // Selection Sort:
 // Approach:
-// Selection Sort finds the minimum element in the unsorted part of the array and swaps it with the first unsorted element. It repeats this process until the entire array is sorted.
+// Selection Sort finds the minimum element in the unsorted part of the array and swaps it with the first unsorted element. 
+//It repeats this process until the entire array is sorted.
 // Number of Comparisons:
 // It finds the minimum element in each pass, resulting in fewer comparisons compared to Bubble Sort.
 // Number of Swaps:
