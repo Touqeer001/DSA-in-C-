@@ -1,4 +1,5 @@
-// -- -- -- -- -- -- -- -- -- -- -- -- -Armstrong number-- -- -- -- -- -- -- -- -- -- -- -- -- -an n - digit number is an Armstrong number if the sum of its digits, each raised to the nth power, is equal to the number itself.153 = 1 ^ 3 + 5 ^ 3 + 3 ^ 3 = 153.
+// -- -- -- -- -- -- -- -- -- -- -- -- -Armstrong number-- -- -- -- -- -- -- -- -- -- -- -- -- -an
+//  n - digit number is an Armstrong number if the sum of its digits, each raised to the nth power, is equal to the number itself.153 = 1 ^ 3 + 5 ^ 3 + 3 ^ 3 = 153.
 
 #include <iostream>
 using namespace std;
