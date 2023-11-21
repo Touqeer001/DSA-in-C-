@@ -69,7 +69,7 @@ int main()
     int a[] = {1, 4, 0, 5, -2, 15};
     int size = sizeof(a) / sizeof(a[0]);
 
-    //  So, when you call PrintArray(a, size); in your main function, you are passing the array a and its size size as arguments to the PrintArray function. The function then uses these parameters to iterate through the elements of the array and print them.
+    // So, when you call PrintArray(a, size); in your main function, you are passing the array a and its size size as arguments to the PrintArray function. The function then uses these parameters to iterate through the elements of the array and print them.
     PrintArray(a, size);
     cout << endl;
     ReverseArray(a, size);
