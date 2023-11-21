@@ -13,7 +13,7 @@ int main()
 
     int num = 5;
     int update = num++;
-    cout << update;
+    cout << num;
     // cout << result;
     return 0;
 }
