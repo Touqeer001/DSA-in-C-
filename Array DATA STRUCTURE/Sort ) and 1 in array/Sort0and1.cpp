@@ -1,8 +1,7 @@
-// Question:Sort 0 and 1 From the array  
+// Question:Sort 0 and 1 From the array
 
-
-// Original array: 0 1 0 1 1 0 1 0 0 1 
-// Array after sorting 0s and 1s: 0 0 0 0 0 1 1 1 1 1 
+// Original array: 0 1 0 1 1 0 1 0 0 1
+// Array after sorting 0s and 1s: 0 0 0 0 0 1 1 1 1 1
 // Explanation:
 
 // We start by iterating through the array to count the number of 0s. In the given example, there are 5 zeros.
@@ -18,12 +17,6 @@
 // The algorithm uses a constant amount of space, regardless of the size of the array.
 // Thus, the space complexity is O(1).
 // This approach is efficient for sorting an array with only two distinct elements (0s and 1s) and is often referred to as the Dutch National Flag algorithm. If you have any further questions or if there's anything else you'd like to discuss, feel free to ask!
-
-
-
-
-
-
 
 #include <iostream>
 using namespace std;
@@ -72,8 +65,8 @@ int main()
     return 0;
 }
 
-//Certainly! Let's go through the step-by-step process of the code, focusing on each iteration:
-// tep-by-step process for counting zeros:
+// Certainly! Let's go through the step-by-step process of the code, focusing on each iteration:
+//  tep-by-step process for counting zeros:
 
 // Initialize i to 0.
 // Check if i (index) is less than the size of the array.
@@ -85,7 +78,6 @@ int main()
 // Repeat steps 3-4 until i reaches the end of the array.
 // After this loop, countZeros will be the total count of zeros in the array.
 
-
 // Step-by-step process for filling array with 0s:
 
 // Initialize i to 0.
@@ -96,7 +88,6 @@ int main()
 // i = 1 (true): Set arr[1] to 0.
 // i becomes 2.
 // Repeat steps 3-4 until i reaches countZeros.
-
 
 // Step-by-step process for filling array with 1s:
 
