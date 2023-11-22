@@ -70,7 +70,7 @@ int main()
 // Iteration 1 (i = 2):
 
 // arr[2] is 1.
-// Condition arr[i] > fPahlaBigNumber(1 > 3) is false.
+// Condition arr[i] > PahlaBigNumber(1 > 3) is false.
 // Condition arr[i] > DusraBadaNumber (1 > 2) is false.
 // No updates to firstMax and secondMax.
 // Iteration 2 DusraBadaNumber
