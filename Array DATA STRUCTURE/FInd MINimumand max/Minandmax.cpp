@@ -1,11 +1,11 @@
-// ertainly! To find the minimum and maximum elements from an array,
-// my_array =  [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]
-// output
-// min element=1
-// max element=9
-// To summarize:
-// Time Complexity: O(n)
-// Space Complexity: O(1)  
+// certainly! To find the minimum and maximum elements from an array,
+//  my_array =  [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]
+//  output
+//  min element=1
+//  max element=9
+//  To summarize:
+//  Time Complexity: O(n)
+//  Space Complexity: O(1)
 
 #include <iostream>
 using namespace std;
