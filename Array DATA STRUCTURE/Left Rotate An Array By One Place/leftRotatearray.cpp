@@ -2,11 +2,11 @@
 
 // Question; left rotate an array by one place
 // Original Array: 1 2 3 4 5
-// Array after Left Rotation by One: 2 3 4 5 1
+//  Array after Left Rotation by One: 2 3 4 5 1
 
 #include <iostream>
 using namespace std;
-#include<vector>
+#include <vector>
 
 int LeftRotate(int arr[], int size)
 
@@ -33,8 +33,7 @@ int main()
     return 0;
 }
 
-
-//vector initilise STL
+// vector initilise STL
 
 // vector<int>myVector={1,2,3,4,5};
 // myVector.push_back(1);   // To Add Element in the array
