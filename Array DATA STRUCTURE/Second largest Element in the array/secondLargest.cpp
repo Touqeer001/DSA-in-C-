@@ -50,6 +50,7 @@ int main()
 }
 
 // ---------------------Understandin this loop----------------
+// ---------------------Understandin this loop----------------
 //  if (arr[i] > PahlaBigNumber)
 //         {
 //             DusraBadaNumber = PahlaBigNumber;
