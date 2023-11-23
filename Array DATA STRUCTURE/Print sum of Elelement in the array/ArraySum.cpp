@@ -7,7 +7,8 @@
 // step 1 : Define array
 //// Calculate the size of the array
 // Initialize sum to zero
-// Iterate through the array and accumulate the sum//
+// Iterate through the array and accumulate the sum
+// Iterate through the array and accumulate the sum
 
 #include <iostream>
 using namespace std;
