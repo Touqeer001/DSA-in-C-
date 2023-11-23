@@ -1,12 +1,8 @@
 // Question:find duplicate elements in an array
 // Initial array: {1, 2, 3, 4, 5, 1, 4}
-//output:dublicatr-1 and 4
-
-
+// output:dublicatr-1 and 4
 
 // The condition myArray[i] != -1 checks whether the current element at index i in the array is not equal to -1. This condition is used to ensure that the current element has not been marked as visited.
-
-
 
 #include <iostream>
 using namespace std;
@@ -15,8 +11,7 @@ int main()
     int arr[] = {};
     int size = sizeof(arr) / sizeof(arr[0]);
 
-
-// Iterate through the array
+    // Iterate through the array
     for (int i = 0; i < size; i++)
 
     {
@@ -31,7 +26,7 @@ int main()
                 if (arr[i] == arr[j])
                 {
                     count++;
-                    arr[j] = -1;  // Mark the duplicate as visited
+                    arr[j] = -1; // Mark the duplicate as visited
                 }
             }
             if (count > 1)
@@ -47,10 +42,8 @@ int main()
 // ------------------------------------------Space Complexity:--------------------------------------------------
 // The space complexity is O(1) or constant. The only additional space used is for the loop variables and the count variable. The algorithm does not use any data structures that grow with the input size, so the space complexity is constant.
 
-
 // -----------------------------------------------------Time Complexity-------------------------------------------------
 // The time complexity of the provided code is O(n^2), where n is the size of the array. This is because there are nested loops: the outer loop iterates through each element in the array, and the inner loop searches for duplicates starting from the current element. In the worst case, each element is compared with every other element, resulting in a quadratic time complexity.
-
 
 // -------------------Explanation-------------------------
 // Initial array: {1, 2, 3, 4, 5, 1, 4}
