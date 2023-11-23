@@ -10,7 +10,7 @@
 
 // Time Complexity:
 
-// The algorithm makes two passes through the array, each taking O(n) time, where n is the size of the array.
+//  The algorithm makes two passes through the array, each taking O(n) time, where n is the size of the array.
 // Therefore, the overall time complexity is O(n).
 // Space Complexity:
 
