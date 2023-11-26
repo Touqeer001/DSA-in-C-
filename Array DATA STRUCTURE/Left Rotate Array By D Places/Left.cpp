@@ -17,7 +17,7 @@ void leftShiftByD(int arr[], int size, int d)
 {
     d = d % size;
 
-    // reverseArray(arr, 0, d - 1); reverses the elements from index 0 to index d - 1.
+    //  reverseArray(arr, 0, d - 1); reverses the elements from index 0 to index d - 1.
     // In our case, d is 2, so we reverse elements from index 0 to 1.
     // After this step, the array becomes: [2, 1, 3, 4, 5]
     reverFunction(arr, 0, d - 1);
