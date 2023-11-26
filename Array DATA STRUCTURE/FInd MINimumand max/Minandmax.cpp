@@ -1,4 +1,4 @@
-// certainly! To find the minimum and maximum elements from an array,
+// certainly !To find the minimum and maximum elements from an array,
 //  my_array =  [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]
 //  output
 //  min element=1
