@@ -1,4 +1,4 @@
-// // n C++, functions are a fundamental building block of a program that allow you to organize and structure your code by encapsulating specific tasks or operations. Here's a basic overview of how functions work in C++
+//  n C++, functions are a fundamental building block of a program that allow you to organize and structure your code by encapsulating specific tasks or operations. Here's a basic overview of how functions work in C++
 
 // ---------------------Function Declaration and Definition:-------------------------------------
 // In C++, a function is declared and defined in two parts: the declaration (also known as the function prototype) and the definition. The declaration tells the compiler about the function's existence, and the definition provides the details of what the function does.
