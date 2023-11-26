@@ -1,7 +1,6 @@
 //  To find the largest element in an array,
 //   int arr[] = {3, 2, 1, 5, 2};
 //  The largest element in the array is: 5
-//
 
 // explanation:
 // Time Complexity: O(n)
