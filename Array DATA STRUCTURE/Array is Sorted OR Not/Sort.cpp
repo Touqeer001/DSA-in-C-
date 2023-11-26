@@ -5,7 +5,7 @@
 // output:
 //  In summary:Array1 is Sorted";
 
-// Time Complexity: O(n)
+// Time Complexity : O(n)
 // Space Complexity: O(1)
 
 #include <iostream>
