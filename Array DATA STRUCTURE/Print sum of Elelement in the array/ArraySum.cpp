@@ -11,7 +11,7 @@
 // Iterate through the array and accumulate the sum
 
 #include <iostream>
-using namespace std;
+    using namespace std;
 int main()
 {
     int arr[] = {2, 7, 1, -4, 11};
