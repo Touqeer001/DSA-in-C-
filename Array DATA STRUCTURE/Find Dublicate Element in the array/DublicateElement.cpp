@@ -2,7 +2,7 @@
 // Initial array: {1, 2, 3, 4, 5, 1, 4}
 // output:dublicatr-1 and 4
 
-// The condition myArray[i] != -1 checks whether the current element at index i in the array is not equal to - 1. This condition is used to ensure that the current element has not been marked as visited.
+//  The condition myArray[i] != -1 checks whether the current element at index i in the array is not equal to - 1. This condition is used to ensure that the current element has not been marked as visited.
 
 #include <iostream>
 using namespace std;
