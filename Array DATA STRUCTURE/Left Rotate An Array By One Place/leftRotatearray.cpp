@@ -2,7 +2,7 @@
 
 // Question; left rotate an array by one place
 // Original Array: 1 2 3 4 5
-// Array after Left Rotation by One : 2 3 4 5 1
+//  Array after Left Rotation by One : 2 3 4 5 1
 
 #include <iostream>
 using namespace std;
