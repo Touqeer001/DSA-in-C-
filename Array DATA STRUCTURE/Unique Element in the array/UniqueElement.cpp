@@ -34,7 +34,7 @@ int main()
 }
 
 // -----------------Above code expalanation----------------------
-// Initial values:
+//Initial values:
 // uniqueElement: 0 (initial value)
 // arr: {2, 3, 1, 6, 3, 6, 2}
 // Step 1 (i = 0):
