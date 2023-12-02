@@ -22,7 +22,7 @@ int addTwoNumber(int a, int b);
 double addTwoNumber(double a, double b); // Function Overloading:
 int main()
 {
-    // function call
+    //function call
     int result = addTwoNumber(2, 3);
     double result2 = addTwoNumber(5, 3);
 
