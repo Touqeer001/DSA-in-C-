@@ -1,0 +1,39 @@
+Here is a list of common time complexities ordered from most efficient to least efficient, considering the typical priority in terms of scalability:
+
+O(1): Constant Time Complexity
+Operations take a constant amount of time, regardless of the input size.
+Example: Accessing an element in an array by index.
+
+O(log n): Logarithmic Time Complexity
+The running time grows logarithmically with the input size.
+Example: Binary search in a sorted list.
+
+
+O(n): Linear Time Complexity
+The running time grows linearly with the input size.
+Example: Simple search through an unsorted list.
+
+
+O(n log n): Linearithmic Time Complexity
+Often seen in efficient sorting algorithms.
+Example: Merge sort, heap sort.
+
+
+O(n²): Quadratic Time Complexity
+the running time is proportional to the square of the input size.
+Example: Bubble sort, insertion sort.
+
+
+O(n³): Cubic Time Complexity
+The running time is proportional to the cube of the input size.
+Example: Algorithms with nested loops, like some matrix multiplication algorithms.
+O(2^n): Exponential Time Complexity
+
+The running time grows exponentially with the input size.
+Example: Brute-force algorithms for problems like the traveling salesman problem.
+
+
+O(n!): Factorial Time Complexity
+The running time grows factorially with the input size.
+Example: Brute-force algorithms for combinatorial problems.
+It's important to note that this list provides a general guideline, and the actual performance can vary based on constant factors, specific implementations, and the nature of the algorithmic problem. In practice, choosing an algorithm with a lower time complexity is generally preferred for large input sizes, but other factors such as memory usage, ease of implementation, and pract
