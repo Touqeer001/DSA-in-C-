@@ -13,23 +13,23 @@ int main()
 {
     int number = 121;
     int originalNumber = number;
-// The line int originalNumber = number; is used to store the original value of the variable number before the while loop modifies it. The reason for this is that after the while loop, number becomes 0, and comparing it to reverseNumber would always result in true (since 0 is equal to 0).
+    // The line int originalNumber = number; is used to store the original value of the variable number before the while loop modifies it. The reason for this is that after the while loop, number becomes 0, and comparing it to reverseNumber would always result in true (since 0 is equal to 0).
 
-// By storing the original value in originalNumber, you can later compare it with reverseNumber to check if the original number is a palindrome.
+    // By storing the original value in originalNumber, you can later compare it with reverseNumber to check if the original number is a palindrome.
 
-// Here's a breakdown of the logic:
+    // Here's a breakdown of the logic:
 
-// originalNumber = number;: This line stores the original value of number before the while loop begins.
+    // originalNumber = number;: This line stores the original value of number before the while loop begins.
 
-// Inside the while loop, number is modified by removing its last digit in each iteration.
+    // Inside the while loop, number is modified by removing its last digit in each iteration.
 
-// After the loop, number is 0, but originalNumber still holds the initial value.
+    // After the loop, number is 0, but originalNumber still holds the initial value.
 
-// if (originalNumber == reverseNumber): This condition checks whether the original number is equal to its reversed version.
+    // if (originalNumber == reverseNumber): This condition checks whether the original number is equal to its reversed version.
 
-// Without storing the original value in originalNumber, you would be comparing 0 (the modified number variable) with reverseNumber, and the result would always be true.
+    // Without storing the original value in originalNumber, you would be comparing 0 (the modified number variable) with reverseNumber, and the result would always be true.
 
-// This additional variable ensures that the comparison reflects whether the original number is a palindrome or not.
+    // This additional variable ensures that the comparison reflects whether the original number is a palindrome or not.
     int reversNumber = 0;
 
     while (number > 0)
