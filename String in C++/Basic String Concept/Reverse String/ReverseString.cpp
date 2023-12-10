@@ -1,7 +1,7 @@
 //  reverse a string in
 //  std::string str = "Hello, World!";
 
-// he time complexity of this approach is O(n)
+// The time complexity of this approach is O(n)
 // The space complexity is O(1),
 
 // output
