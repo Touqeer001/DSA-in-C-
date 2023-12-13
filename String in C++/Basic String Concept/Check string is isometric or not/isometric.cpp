@@ -16,7 +16,9 @@
 using namespace std;
 
 bool areIsomorphic(string &s, string &t)
+
 {
+
     int n = s.length();
     unordered_map<char, char> sFirst;
     unordered_map<char, char> tSecond;
