@@ -13,7 +13,7 @@ using namespace std;
 int main()
 {
 
-    string name = "Hello world space";
+    string name = "Hello world";
     int start = 0;
     int end = name.length() - 1;
 
