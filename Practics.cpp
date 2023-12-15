@@ -7,12 +7,10 @@ using namespace std;
 int main()
 
 {
-    int arr[6] = {1, 2, 3, 4, 5, 6};
-    int n = sizeof(arr) / sizeof(arr[0]);
+    int a = 10;
+    int b = 20;
+    int sum = a + b;
+    cout << sum;
 
-    for (int i = 0; i < n; i++)
-    {
-        cout << arr[i] << " "; // Print each element of the array
-    }
     return 0;
 }
