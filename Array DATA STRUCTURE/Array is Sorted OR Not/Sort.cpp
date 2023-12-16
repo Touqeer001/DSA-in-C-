@@ -13,7 +13,7 @@ using namespace std;
 
 int IsSorted(int arr[], int size)
 {
-    // for (int i = 1; i < size; i++)
+    //  for (int i = 1; i < size; i++)
     // {
     //     if (arr[i - 1] > arr[i])
     //     {
