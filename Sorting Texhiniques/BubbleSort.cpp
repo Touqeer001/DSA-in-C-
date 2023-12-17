@@ -1,6 +1,5 @@
 
 
-
 // -------------------------------bubleSort-----------------------------------
 // Bubble Sort:
 // Approach:
@@ -56,10 +55,9 @@ int main()
     return 0;
 }
 
-
 // -------------------------------output---------------------------
-// Original array: 64 25 12 22 11 1 
-// Sorted array: 1 11 12 22 25 64 
+// Original array: 64 25 12 22 11 1
+// Sorted array: 1 11 12 22 25 64
 
 // ---------------------------------Expalantion---------------------------
 // Certainly! Let's walk through the bubbleSort algorithm step by step using the example array arr = {64, 25, 12, 22, 11, 1}:
