@@ -4,16 +4,13 @@
 using namespace std;
 #include <string>
 
-int add(int a, int b)
-{
-    return a + b;
-}
-
 int main()
 
 {
-    int sum = add(3, 4);
-    cout << "The sum of a nad b is" << sum;
+    int a = 100;
+    int b = 100;
+    int result = a * b;
+    cout << result;
 
     return 0;
 }
