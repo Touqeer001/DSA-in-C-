@@ -11,7 +11,7 @@
 #include <iostream>
 using namespace std;
 
-int IsSorted(int arr[], int size)
+int IsSorte(int arr[], int size)
 {
     //  for (int i = 1; i < size; i++)
     // {
