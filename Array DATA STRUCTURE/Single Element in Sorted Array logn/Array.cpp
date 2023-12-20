@@ -1,3 +1,9 @@
+// Enter the size of the array: 3
+// Enter the sorted array elements (each element twice except one): 1 3 3
+// The unique element is: 1
+
+
+
 #include <iostream>
 using namespace std;
 #include <vector>
