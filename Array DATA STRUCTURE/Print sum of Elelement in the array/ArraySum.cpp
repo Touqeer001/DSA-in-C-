@@ -11,7 +11,7 @@
 // Iterate through the array and accumulate the sum
 
 #include <iostream>
-    using namespace std;
+using namespace std;
 int main()
 {
     int arr[] = {2, 7, 1, -4, 11};
@@ -48,6 +48,6 @@ int main()
 // sum is now 6.
 // myArray[4] is 11.
 // Add 11 to sum: sum = 6 + 11 = 17.
-// Final state:
+//  Final state:
 // After the loop, sum is 17, which is the sum of all elements in the array {2, 7, 1, -4, 11}.
 // I hope this helps clarify the step-by-step process!
