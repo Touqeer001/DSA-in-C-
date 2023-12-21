@@ -9,9 +9,6 @@ using namespace std;
 // If the loop completes without finding any mismatched characters, the function returns true, indicating that the string is a palindrome.
 // This method is efficient and avoids creating a reversed copy of the string.
 
-
-
-
 bool Polindrom(string s)
 {
     int start = 0;
