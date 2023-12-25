@@ -10,7 +10,6 @@ using namespace std;
 int main()
 
 {
-    cout << "Touqeer ansari";
 
     return 0;
 }
