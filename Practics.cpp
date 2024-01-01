@@ -3,14 +3,14 @@
 #include <iostream>
 using namespace std;
 #include <string>
-int add(int a, int b)
-{
-    return a + b;
-}
 
 int main()
 
 {
+    int a = 100;
+    int b = 100;
+    int r = a + b;
+    cout << r;
 
     return 0;
 }
