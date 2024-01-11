@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .spinner {
+        background-color: black;   height: 200px;  width: 200px;
+        border-radius: 30%;  border: 25px solid white; animation: spin 4s linear infinite;   margin-left: 40%;
+      }
+      marquee {
+        width: 25%; background-color: #1b1a1a;  margin-left: 37%;  padding: -1px 3px 25px 18px;
+        margin-top: 59px; border-radius: 27px;  color: white; border: solid 2px red;
+      }
+ @keyframes spin {
+        to {
+          transform: rotate(360deg);  border-top: 20px solid rgb(232, 14, 14);
+        }
+      }
+      #spinn {
+        font-size: 24px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h2>Output:</h2>
+    <div class="spinner"></div> <marquee direction="right">  <h2 id="spinn">Spinner</h2>  </marquee>
+  </body>
+</html>
