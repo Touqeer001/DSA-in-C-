@@ -1,28 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Pendulum Simulation</title>
     <style>
-      .spinner {
-        background-color: black;   height: 200px;  width: 200px;
-        border-radius: 30%;  border: 25px solid white; animation: spin 4s linear infinite;   margin-left: 40%;
+      body {
+        height: 100vh; margin: 0;
       }
-      marquee {
-        width: 25%; background-color: #1b1a1a;  margin-left: 37%;  padding: -1px 3px 25px 18px;
-        margin-top: 59px; border-radius: 27px;  color: white; border: solid 2px red;
+ .pendulum-container {
+        position: relative;
+      } .pendulum {
+        width: 20px; height: 200px; background-color: #333; position: absolute;
+        top: 0; left: 50%; transform: translateX(-50%);  transform-origin: 50% 0;
+      } .pendulum-rod {
+        width: 4px; height: 100%; background-color: #666; position: absolute;
+        top: 0; left: 50%; transform: translateX(-50%);
+      }.pendulum-ball {
+        width: 30px; height: 30px; background-color: #3498db;
+        border-radius: 50%; position: absolute; top: 100%;
+        left: 50%; transform: translateX(-50%) translateY(-50%);
       }
- @keyframes spin {
-        to {
-          transform: rotate(360deg);  border-top: 20px solid rgb(232, 14, 14);
-        }
-      }
-      #spinn {
-        font-size: 24px;
-      }
+     
     </style>
   </head>
-
   <body>
-    <h2>Output:</h2>
-    <div class="spinner"></div> <marquee direction="right">  <h2 id="spinn">Spinner</h2>  </marquee>
+    <div><h1>Output:Pendulum Simulation</h1></div><div class="pendulum-container">
+      <div class="pendulum"> <div class="pendulum-rod"></div> <div class="pendulum-ball"></div>
+      </div></div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const pendulum = document.querySelector(".pendulum");
+        let angle = 0;
+        let amplitude = 50;
+        let frequency = 0.02;
+         function updatePendulum() {
+          const displacement = amplitude * Math.sin(angle);
+          pendulum.style.transform = `rotate(${displacement}deg)`;
+          angle += frequency;
+          requestAnimationFrame(updatePendulum);
+        }updatePendulum();
+      });
+    </script>
   </body>
 </html>
