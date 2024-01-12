@@ -22,4 +22,4 @@ int main()
 
 // Output=24
 // Time Complaxity of Factorial of number is O(n);
-// space Complexity of Number  is O(n);
+//  space Complexity of Number  is O(n);
