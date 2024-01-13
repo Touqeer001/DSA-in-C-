@@ -14,8 +14,7 @@ void modifyByValue(int a)
 {
     a = a + 2;
 }
-
-// Pass by Reference
+//Pass by Reference
 void modifyByReference(int &a)
 {
     a = a * 2;
