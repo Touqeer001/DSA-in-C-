@@ -6,7 +6,7 @@
 // -------------------------Function Parameters and Return Types-------------------------
 // parameters: Functions can take input parameters, which are values passed to the function when it is called. In the example above, int a and int b are parameters of the add function.
 
-// Return Type: Functions can also return a value to the caller. In the example, int before the function name add indicates that the function returns an integer value.
+Return Type: Functions can also return a value to the caller. In the example, int before the function name add indicates that the function returns an integer value.
 
 // -------------------------------------------Function Call:-----------------------
 // In the main function, you call the add function with the arguments 5 and 3. The result of the add function is stored in the variable result.
